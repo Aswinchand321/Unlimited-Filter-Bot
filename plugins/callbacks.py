@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+                    InlineKeyboardButton("🛠️സഹായം🛠️", callback_data="help_data")
                 ]
             ]
         )
@@ -47,12 +47,12 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("💠CLONE ME💠", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot"),
+                    InlineKeyboardButton("♻️ABOUT♻️", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
+                    InlineKeyboardButton("🌹MY CHANNEL🌹", url="https://t.me/Movies_Club_2019"),
+                    InlineKeyboardButton("✌️CREDITS✌️", url="https://t.me/Myfreak123")
                 ]
             ]
         )
@@ -70,11 +70,11 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "💠DEPLOY ME💠", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
                 ],
                 [
-                    InlineKeyboardButton("BACK", callback_data="help_data"),
-                    InlineKeyboardButton("CLOSE", callback_data="close_data"),
+                    InlineKeyboardButton("👈BACK👈", callback_data="help_data"),
+                    InlineKeyboardButton("🚫CLOSE🚫", callback_data="close_data"),
                 ]                
             ]
         )
