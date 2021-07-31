@@ -52,7 +52,7 @@ async def cb_handler(client, query):
                 ],
                 [
                     InlineKeyboardButton("🌹MY CHANNEL🌹", url="https://t.me/Movies_Club_2019"),
-                    InlineKeyboardButton("✌️CREDITS✌️", url="https://t.me/Myfreak123")
+                    InlineKeyboardButton("✌️CREDITS✌️", url="@Myfreak123")
                 ]
             ]
         )
